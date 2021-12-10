@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0219D6B22763BE4500FC327F /* Day2Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0219D6B12763BE4500FC327F /* Day2Solution.swift */; };
 		02DA7F722762590E00664282 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA7F712762590E00664282 /* main.swift */; };
 		02DA7F7B276259B300664282 /* Day1Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA7F7A276259B300664282 /* Day1Solution.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0219D6B02763BDE100FC327F /* Day2Data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day2Data.txt; sourceTree = "<group>"; };
+		0219D6B12763BE4500FC327F /* Day2Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Solution.swift; sourceTree = "<group>"; };
 		02DA7F6E2762590E00664282 /* AdventOfCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DA7F712762590E00664282 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02DA7F7A276259B300664282 /* Day1Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Solution.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 				02DA7F782762594900664282 /* data */,
 				02DA7F712762590E00664282 /* main.swift */,
 				02DA7F7A276259B300664282 /* Day1Solution.swift */,
+				0219D6B12763BE4500FC327F /* Day2Solution.swift */,
 				02DA7F6F2762590E00664282 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				02DA7F7F276264DC00664282 /* Day1Data.txt */,
+				0219D6B02763BDE100FC327F /* Day2Data.txt */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			files = (
 				02DA7F722762590E00664282 /* main.swift in Sources */,
 				02DA7F7B276259B300664282 /* Day1Solution.swift in Sources */,
+				0219D6B22763BE4500FC327F /* Day2Solution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

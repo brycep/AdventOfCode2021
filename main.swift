@@ -8,4 +8,5 @@
 import Foundation
 
 let day1Solution = Day1Solution()
-day1Solution.solution()
+let day2Solution = Day2Solution()
+day2Solution.solution()

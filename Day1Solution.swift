@@ -25,11 +25,8 @@ class Day1Solution {
                 
                 if (isWindowPopulated(windowValues: windowValues) && (previousValue != nil)) {
                     if (value! > previousValue!) {
-                        print("\(value!) increased")
                         counter += 1
-                    } else {
-                        print("\(value!) decreased")
-                    }
+                    } 
                 }
                 previousValue = value
             }
